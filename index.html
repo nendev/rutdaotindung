@@ -212,7 +212,7 @@
               <h2 class="mt-3 text-2xl font-bold text-dark">Nội dung nội bộ hỗ trợ SEO và tăng độ tin cậy</h2>
             </div>
             <p class="max-w-2xl text-sm leading-6 text-slate-500">
-              Các bài viết dưới đây giúp khách hàng hiểu rõ hơn về rút thẻ tín dụng, đáo hạn thẻ tín dụng, chi phí dịch vụ và nhu cầu tìm kiếm tại Sài Gòn, TP HCM.
+              Các bài viết dưới đây giúp khách hàng hiểu rõ hơn về rút thẻ tín dụng, đáo hạn thẻ tín dụng và nội dung hỗ trợ tăng tương tác Facebook.
             </p>
           </div>
 
@@ -227,15 +227,10 @@
               <h3 class="mt-3 text-xl font-bold text-dark">Rút tiền thẻ tín dụng có an toàn không?</h3>
               <p class="mt-3 text-sm leading-6 text-slate-600">Tổng hợp các yếu tố ảnh hưởng đến độ an toàn, minh bạch chi phí và cách lựa chọn nơi hỗ trợ phù hợp.</p>
             </a>
-            <a href="/blog/phi-dao-han-the-tin-dung-bao-nhieu.html" class="rounded-3xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-primary">
-              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Chi phí dịch vụ</p>
-              <h3 class="mt-3 text-xl font-bold text-dark">Phí đáo hạn thẻ tín dụng bao nhiêu?</h3>
-              <p class="mt-3 text-sm leading-6 text-slate-600">Phân tích các mức phí thường gặp, lý do có chênh lệch và cách so sánh dịch vụ rõ ràng hơn.</p>
-            </a>
-            <a href="/blog/rut-the-tin-dung-sai-gon.html" class="rounded-3xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-primary">
-              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Theo khu vực</p>
-              <h3 class="mt-3 text-xl font-bold text-dark">Rút thẻ tín dụng Sài Gòn cần lưu ý gì?</h3>
-              <p class="mt-3 text-sm leading-6 text-slate-600">Nội dung dành cho người dùng đang tìm dịch vụ rút thẻ tín dụng, đáo hạn tín dụng tại khu vực Sài Gòn, TP HCM.</p>
+            <a href="/blog/huong-dan-tang-like-bai-viet-facebook-moi-nhat-2026.html" class="rounded-3xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-primary">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Marketing Facebook</p>
+              <h3 class="mt-3 text-xl font-bold text-dark">Hướng dẫn tăng like bài viết Facebook mới nhất <span data-current-year></span></h3>
+              <p class="mt-3 text-sm leading-6 text-slate-600">Cách tối ưu nội dung, seeding và dùng dịch vụ buff like Facebook để tạo đà tương tác cho bài viết.</p>
             </a>
           </div>
         </div>
@@ -263,8 +258,13 @@
     </main>
 
     <footer class="mx-auto max-w-6xl px-6 py-10 text-center text-sm text-slate-500 lg:px-8">
-      <p>© 2026 Rút Đáo Tín Dụng - RutDaoTinDung.Store. Trang giới thiệu dịch vụ đáo hạn thẻ tín dụng và rút tiền thẻ tín dụng phí từ 1.7%.</p>
+      <p>© <span data-current-year></span> Rút Đáo Tín Dụng - RutDaoTinDung.Store. Trang giới thiệu dịch vụ đáo hạn thẻ tín dụng và rút tiền thẻ tín dụng phí từ 1.7%.</p>
     </footer>
   </div>
+  <script>
+    document.querySelectorAll("[data-current-year]").forEach(function (element) {
+      element.textContent = new Date().getFullYear();
+    });
+  </script>
 </body>
 </html>
